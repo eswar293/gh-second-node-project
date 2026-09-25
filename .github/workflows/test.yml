@@ -1,7 +1,7 @@
 name: gh-seconnd-npm-project
 on: push
 jobs:
-  test:
+  Test:
     runs-on: ubuntu-latest
     steps:
       - name: Code Checkout
@@ -14,4 +14,3 @@ jobs:
         run: npm ci
       - name: Run Tests
         run: npm test
-        
