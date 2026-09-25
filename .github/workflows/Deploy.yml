@@ -1,5 +1,5 @@
 name: gh-second-node-project-Deploy
-on: push
+on: [push, workflow_dispatch]
 jobs:
     Test:
         runs-on: ubuntu-latest
